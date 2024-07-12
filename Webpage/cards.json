@@ -1,0 +1,19 @@
+{
+    "cards": [
+        {
+            "image": "web1.png",
+            "title": "Web3 Component 1",
+            "description": "Description for Web3 Component 1."
+        },
+        {
+            "image": "web2.png",
+            "title": "Web3 Component 2",
+            "description": "Description for Web3 Component 2."
+        },
+        {
+            "image": "web3.png",
+            "title": "Web3 Component 3",
+            "description": "Description for Web3 Component 3."
+        }
+    ]
+}

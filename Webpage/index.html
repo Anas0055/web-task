@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Components</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Web3 Components</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cards">Cards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Center Image -->
+    <div class="container text-center my-4" style="padding-top: 80px;">
+        <img src="web.jpg" alt="Web3 Components" class="img-fluid">
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="my-5">
+        <div class="container">
+            <h2 class="text-center">About Us</h2>
+            <p class="text-center">Welcome to Web3 Components!
+
+                At Web3 Components, we are passionate about the future of the internet, and we're dedicated to providing the best tools and resources to help you build the decentralized applications (dApps) that will define tomorrow's digital landscape.<br>
+                What is Web3?
+                Web3, or Web 3.0, represents the third generation of internet services, focused on decentralization, blockchain technologies, and token-based economics. Unlike the traditional web (Web 2.0), which is primarily driven by centralized servers and databases, Web3 leverages distributed networks to create a more open, transparent, and user-centric web experience.<br>
+                Key Features of Web3: <br>                
+                Decentralization:<br>
+                Web3 applications run on decentralized networks, such as blockchain, where no single entity has control. This reduces the risk of data breaches and ensures that users have full ownership and control over their data.<br>
+                Trustless Interactions:<br>
+                Transactions and interactions on Web3 are trustless, meaning they don't require intermediaries. Smart contracts—self-executing contracts with the terms directly written into code—enable automated, secure, and transparent transactions.<br>
+                Tokenization:<br>
+                Web3 introduces the concept of token economies. Tokens can represent assets, access rights, or even stakes in a project, allowing for new models of ownership, participation, and incentive structures.<br>                
+                Enhanced Privacy:<br>
+                With Web3, users have more control over their personal information. Privacy-enhancing technologies and cryptographic techniques ensure that data is shared only when necessary and always with the user’s consent.</p>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section id="cards" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Cards</h2>
+            <div class="row" id="cards-container">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="web1.png" class="card-img-top" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Web1</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="web2.png" class="card-img-top" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Web 2</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="web3.png" class="card-img-top" alt="Card 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Web 3</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="my-5">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center text-lg-start mt-4">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Web3 Components</h5>
+                    <p>Building the future of decentralized applications.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#about" class="text-white">About</a></li>
+                        <li><a href="#cards" class="text-white">Cards</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Follow Us</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="text-white">Facebook</a></li>
+                        <li><a href="#" class="text-white">Twitter</a></li>
+                        <li><a href="#" class="text-white">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark">
+            Muhammad Anas 
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
